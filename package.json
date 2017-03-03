@@ -1,6 +1,6 @@
 {
   "name": "fekey-preprocessor-globalparams",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "global params replace",
   "main": "index.js",
   "scripts": {
