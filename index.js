@@ -7,5 +7,5 @@ module.exports = function (content, file, settings) {
     console.log(settings);
     var paramSrc = settings.src;
     var paramDest = settings.dest;
-    return content.replace(new RegExp(paramSrc), paramDest);
+    return content.replace(new RegExp(paramSrc, 'g'), paramDest);
 };
